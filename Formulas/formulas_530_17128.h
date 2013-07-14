@@ -17,8 +17,7 @@ public:
 
     QString GetAuthOffset()
     {
-        // not found yet
-        return "0";
+        return QString::number(m_opcode & 1 | ((m_opcode & 8 | ((m_opcode & 0x300 | ((unsigned int)m_opcode >> 2) & 0x3C00) >> 4)) >> 2), 16);
     }
 
     QString GetCryptOffset()
