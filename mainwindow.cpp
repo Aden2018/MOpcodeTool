@@ -40,9 +40,9 @@ void MainWindow::CalculOffset(QString input)
         ui->auth->setText("0x" + formulas->GetAuthOffset());
         ui->jam->setText("0x" + formulas->GetJAMOffset());
         ui->crypt->setText("0x" + formulas->GetCryptOffset());
-        ui->unk1->setText("0x" + formulas->GetUnk1Offset());
-        ui->unk2->setText("0x" + formulas->GetUnk2Offset());
-        ui->unk3->setText("0x" + formulas->GetUnk3Offset());
-        ui->unk4->setText("0x" + formulas->GetUnk4Offset());
+        ui->guild->setText("0x" + formulas->GetGuildOffset());
+        ui->quest->setText("0x" + formulas->GetQuestOffset());
+        ui->spell->setText("0x" + formulas->GetSpellOffset());
+        ui->movement->setText("0x" + formulas->GetMovementOffset());
     }
 }

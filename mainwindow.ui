@@ -204,10 +204,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Unk1</string>
+      <string>Guild Offset</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="unk1">
+    <widget class="QLineEdit" name="guild">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -233,10 +233,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Unk2 (Quest)</string>
+      <string>Quest Offset</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="unk2">
+    <widget class="QLineEdit" name="quest">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -252,7 +252,7 @@
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLineEdit" name="unk3">
+    <widget class="QLineEdit" name="spell">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -278,10 +278,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Unk3 (Spell)</string>
+      <string>Spell Offset</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="unk4">
+    <widget class="QLineEdit" name="movement">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -307,22 +307,9 @@
       </rect>
      </property>
      <property name="text">
-      <string>Unk4 (Movement)</string>
+      <string>Movement Offset</string>
      </property>
     </widget>
-    <zorder>label_3</zorder>
-    <zorder>auth</zorder>
-    <zorder>label_5</zorder>
-    <zorder>jam</zorder>
-    <zorder>label_6</zorder>
-    <zorder>unk1</zorder>
-    <zorder>label_7</zorder>
-    <zorder>unk2</zorder>
-    <zorder>unk3</zorder>
-    <zorder>label_8</zorder>
-    <zorder>unk4</zorder>
-    <zorder>label_9</zorder>
-    <zorder>label</zorder>
    </widget>
    <widget class="QGroupBox" name="groupBox_3">
     <property name="geometry">

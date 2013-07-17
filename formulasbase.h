@@ -12,10 +12,10 @@ public:
     virtual QString GetAuthOffset() = 0;
     virtual QString GetCryptOffset() = 0;
     virtual QString GetJAMOffset() = 0;
-    virtual QString GetUnk1Offset() = 0;
-    virtual QString GetUnk2Offset() = 0;
-    virtual QString GetUnk3Offset() = 0;
-    virtual QString GetUnk4Offset() = 0;
+    virtual QString GetGuildOffset() = 0;
+    virtual QString GetQuestOffset() = 0;
+    virtual QString GetSpellOffset() = 0;
+    virtual QString GetMovementOffset() = 0;
 
 protected:
     qint16 m_opcode;
